@@ -14,7 +14,6 @@ import java.util.List;
 
 public class ReactNativeContacts implements ReactPackage {
 
-    @Override
     public List<NativeModule> createNativeModules(
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
@@ -27,7 +26,6 @@ public class ReactNativeContacts implements ReactPackage {
         return Collections.emptyList(); 
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList();
     }
